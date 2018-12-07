@@ -1,0 +1,122 @@
+.center {
+  text-align: center;
+  margin: auto;
+}
+
+header, footer {
+  background-color: #82bef5;
+  color: #fff;
+}
+
+main {
+  width: 71%;
+  background-color: #F6CE30;
+  float: right;
+}
+
+aside {
+  background-color: #466C88;
+  width: 20%;
+  float: left;
+}
+
+aside ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+aside ul li a {
+  font-size: 28px;
+  color: #F6CE30;
+  cursor: pointer;
+}
+
+.profile-picture {
+  width: 150px;
+  height: 150px;
+  padding: 1%;
+  background-color: #466C88;
+  border-radius: 50%;
+}
+
+h1, h2, aside ul li {
+  font-family: 'Bungee', serif;
+}
+
+header h1 {
+  margin: 0;
+  font-size: 50px;
+  color: #fff;
+}
+
+header p {
+  margin: 0;
+  font-size: 21px;
+}
+
+main h2 {
+  color: #466C88;
+}
+
+p, ul {
+  font-family: 'Roboto', sans-serif;
+  font-size: 16px;
+}
+
+#social-media img {
+  width: 35px;
+  padding: 1.5%;
+}
+
+/* Stretch - Call to Action Button */
+.action-button {
+  background-color: #466C88;
+  color: #F6CE30;
+  padding: 10px;
+  margin-top: 1.5%;
+  border-radius: 4px;
+  font-family: 'Bungee', serif;
+  font-size: 21px;
+  display: inline-block;
+}
+
+.container {
+  background-color: #466C88;
+  overflow: hidden;
+}
+
+/* Stretch - Hover States */
+aside ul li a:hover {
+  color: #82bef5;
+}
+
+.action-button:hover {
+  color: #466C88;
+  background-color: #F6CE30;
+}
+
+/* Stretch - Simple CSS Transition */
+a {
+  transition: .3s;
+}
+
+/* Stretch - Removing Underlines from Anchor Tags (links)) */
+a {
+  text-decoration: none;
+}
+
+/* Stretch - highlight span */
+.highlight {
+  color: #D35251;
+}
+
+/* Strech - make it responsive */
+@media  all and (max-width:850px) {
+  main, aside {
+    width: 100%;
+  }
+  section {
+    padding-right: 20px;
+    padding-left: 20px
+  }
+}

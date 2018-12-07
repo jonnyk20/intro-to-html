@@ -1,0 +1,48 @@
+body {
+    margin: 0;
+    box-sizing: border-box;
+}
+
+strong {
+  font-weight: bold;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+  border: 0;
+}
+/* Basic Layout */
+header {
+  padding: 1.5%;
+}
+
+header h1 {
+  padding-top: 2.5%;
+}
+
+aside {
+  padding: 2%;
+}
+
+main {
+  padding: 2%;
+}
+
+main, aside {
+  padding-top: 1%;
+}
+
+section {
+  margin: 2% 0;
+}
+
+footer {
+  clear: both;
+  padding: 1%;
+}
+
+aside ul li {
+  margin: 1.5% 0;
+  line-height: 1.5;
+}
